@@ -68,7 +68,7 @@ The relative speeds below are measured by transcribing English speech on a A100,
 | small  |   244 M    |     `small.en`     |      `small`       |     ~2 GB     |      ~4x       |
 | medium |   769 M    |    `medium.en`     |      `medium`      |     ~5 GB     |      ~2x       |
 | large  |   1550 M   |        N/A         |      `large`       |    ~10 GB     |       1x       |
-| turbo  |   809 M    |        N/A         |      `turbo`       |     ~6 GB     |      ~8x       |
+| giga   |   809 M    |        N/A         |      `turbo`       |     ~6 GB     |      ~8x       |
 
 The `.en` models for English-only applications tend to perform better, especially for the `tiny.en` and `base.en` models. We observed that the difference becomes less significant for the `small.en` and `medium.en` models.
 Additionally, the `turbo` model is an optimized version of `large-v3` that offers faster transcription speed with a minimal degradation in accuracy.
